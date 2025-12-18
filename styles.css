@@ -6,7 +6,7 @@
 }
 
 :root {
-  --primary-color: #0a9c6f;
+  --primary-color: #1daa61;
   --grey-900: #0d1919;
   --grey-800: #121b22;
   --grey-700: #1f2c34;
@@ -198,9 +198,22 @@ footer {
 }
 
 footer button {
-  width: 25px;
-  height: 25px;
-  padding: 3px;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  border: none;
+  border-radius: 50%;
+  transition: opacity ease .2s;
+
+}
+
+footer button:hover{
+    opacity: .6;
+    cursor: pointer;
+}
+.boton-enviar {
+    background-color: var(--primary-color);
+    color: white;
 }
 
 footer svg {
