@@ -17,10 +17,12 @@
   --green-100: #dcf8c6;
   --primary-font: "Roboto", sans-serif;
 }
+/*Fondo*/
 body {
   background-color: var(--primary-color);
   padding: 40px;
 }
+
 
 .app {
   background-color: white;
@@ -31,7 +33,7 @@ body {
   border-radius: 10px;
 }
 
-
+/*header del aside*/
 aside {
   background-color: var(--grey-900);
   color: white;
@@ -85,7 +87,9 @@ aside header {
 .actions button:hover {
   background-color: var(--grey-700);
   transform: translateY(-4px);
+
 }
+/*input de busqueda de chats*/
 .search {
   background-color: var(--grey-800);
   padding: 10px;
@@ -113,6 +117,8 @@ aside header {
   gap: 10px;
 }
 
+/*Lista de chats*/
+
 .user-chat {
   background-color: var(--grey-900);
   display: flex;
@@ -131,6 +137,9 @@ aside header {
   cursor: pointer;
   border-left: 3px solid var(--green-400);
 }
+
+/*header del chat*/
+
 .chat-header {
   background-color: var(--grey-200);
   border-bottom: 1px solid var(--grey-300);
@@ -149,6 +158,7 @@ aside header {
   color: var(--grey-700);
 }
 
+/*Panel principal del chat*/
 
 .chat-panel {
   display: flex;
@@ -186,6 +196,7 @@ aside header {
   background-color: var(--green-100);
 }
 
+/*footer del chat*/
 
 footer {
   display: flex;
@@ -252,22 +263,7 @@ footer textarea:focus {
   border: none;
 }
 
-footer .send {
-  background-color: #2dca7a;
-  border: none;
-  color: var(--grey-200);
-  width: 45px;
-  height: 30px;
-  border-radius: 20px;
-  padding: 5px;
-  cursor: pointer;
-  transition: all .1s;
-}
 
-footer .send:hover {
-  background-color: #138b80;
-  transform: scale(0.98);
-}
 
 @media (max-width:880px) {
   .app {
